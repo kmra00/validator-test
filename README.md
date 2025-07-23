@@ -9,14 +9,6 @@ El email debe tener formato válido (ejemplo: usuario@dominio.com).
 La edad debe ser mayor o igual a 18 años.
 La clase principal de lógica es ValidadorUsuario, que expone métodos para validar cada campo y un método general para validar un usuario completo.
 
-Estructura del proyecto
-src/
-  main/
-    java/
-      cl/kibernumacademy/modelo/Usuario.java         # Modelo de usuario
-      cl/kibernumacademy/util/ValidadorUsuario.java  # Lógica de validación
-  test/
-    java/
       cl/kibernumacademy/util/ValidadorUsuarioTest.java # Pruebas unitarias
 Pruebas unitarias
 Las pruebas están implementadas con JUnit 5 y Hamcrest, e incluyen:
